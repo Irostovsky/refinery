@@ -197,6 +197,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   coffee-rails (~> 3.2.1)
+  execjs
   jquery-rails
   mongrel (>= 1.2.0.pre2)
   mysql2
