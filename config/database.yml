@@ -17,4 +17,4 @@ production: &production
   host: localhost
   database: refinery_production
   username: root
-  password: 
+  password: r00t

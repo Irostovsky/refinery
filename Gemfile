@@ -6,8 +6,10 @@ gem 'mysql2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
-  gem 'sqlite3'
+gem 'rvm-capistrano'
+
+group :development do
+  gem 'capistrano'
 end
 
 
