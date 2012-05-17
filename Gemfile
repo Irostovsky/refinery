@@ -6,10 +6,11 @@ gem 'mysql2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'rvm-capistrano'
-
-gem 'capistrano'
-
+group :development do
+  gem 'mongrel', '>= 1.2.0.pre2'
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
