@@ -8,9 +8,7 @@ gem 'mysql2'
 
 gem 'rvm-capistrano'
 
-group :development do
-  gem 'capistrano'
-end
+gem 'capistrano'
 
 
 # Gems used only for assets and not required
