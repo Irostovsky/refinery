@@ -1,7 +1,7 @@
 require 'bundler/capistrano'
 require "rvm/capistrano"
 
-# load 'deploy/assets'
+load 'deploy/assets'
 
 set :user, 'ubuntu'
 
