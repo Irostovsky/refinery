@@ -5,7 +5,7 @@ load 'deploy/assets'
 
 set :user, 'ubuntu'
 
-server '107.21.242.229', :app, :web, :primary => true
+server '107.21.242.229', :app, :web, :db, :primary => true
 
 set :rvm_ruby_string, '1.9.3@refinery'
 
